@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
+import PageNotFound from "./components/PageNotFound";
 
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="*" element={<h1>404 Not found</h1>} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
