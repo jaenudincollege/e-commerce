@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import ProductCard from "../components/ProductCard";
 
 const Home = () => {
   return (
@@ -7,7 +8,9 @@ const Home = () => {
         <Navbar />
       </header>
 
-      <main></main>
+      <main>
+        <ProductCard />
+      </main>
     </div>
   );
 };
